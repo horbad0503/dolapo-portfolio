@@ -70,7 +70,7 @@ export default function Navbar() {
             to={peanut.storePath}
             className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-2 text-sm font-semibold text-amber-300 transition hover:border-amber-400/60 hover:bg-amber-400/15"
           >
-            🥜 Peanut Store <ExternalLink size={13} />
+            🥜 DYP's Peanut <ExternalLink size={13} />
           </Link>
           <a href="#contact" className="btn-primary !px-5 !py-2.5">
             Let's Connect
@@ -118,7 +118,7 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                   className="flex items-center justify-center gap-2 rounded-xl border border-amber-400/30 bg-amber-400/10 px-4 py-3 text-sm font-semibold text-amber-300"
                 >
-                  🥜 Visit Peanut Store <ExternalLink size={13} />
+                  🥜 Visit DYP's Peanut <ExternalLink size={13} />
                 </Link>
               </li>
             </ul>
